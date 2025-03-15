@@ -1,0 +1,99 @@
+/* Specific styles for essays/blog posts */
+
+.essay-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.essay-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.essay-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.essay-header .date {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.essay-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.essay-content p {
+    margin-bottom: 25px;
+}
+
+.essay-content h2 {
+    font-size: 1.8rem;
+    margin: 40px 0 20px;
+    color: #212529;
+}
+
+.essay-content blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin: 30px 0;
+    font-style: italic;
+    color: #495057;
+}
+
+/* Code blocks for technical essays */
+.essay-content pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 25px 0;
+}
+
+.essay-content code {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+/* Images in essays */
+.essay-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Tables in essays */
+.essay-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.essay-content th,
+.essay-content td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.essay-content th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .essay-header h1 {
+        font-size: 2rem;
+    }
+    
+    .essay-content {
+        font-size: 1rem;
+    }
+}
